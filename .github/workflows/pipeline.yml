@@ -2,7 +2,7 @@
 name: Renovate
 on:
   schedule:
-    # Run everyday at 5 a.m
+    # Run everyday 5 a.m
     - cron: '0 5 * * *'
 jobs:
   renovate:
@@ -13,5 +13,5 @@ jobs:
       - name: Self-hosted Renovate
         uses: renovatebot/github-action@v40.2.10
         with:
-          configurationFile: example/renovate-config.js
+          configurationFile: ./renovate-config.json
           token: ${{ secrets.RENOVATE_TOKEN }}
