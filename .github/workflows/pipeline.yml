@@ -4,6 +4,10 @@ on:
   schedule:
     # Run everyday 5 a.m
     - cron: '0 5 * * *'
+  push:
+    branches:
+    - main
+   
 jobs:
   renovate:
     runs-on: ubuntu-latest
