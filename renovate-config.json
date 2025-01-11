@@ -4,7 +4,6 @@
     "onboarding": false,
     "platform": "github",
     "repositories": [
-      "teaall/my-tiptap",
       "teaall/workstation-setup"
     ]
   }
