@@ -2,6 +2,8 @@
 
 This repository uses [Renovate Bot](https://github.com/renovatebot/renovate) in combination with GitHub Actions workflow to automatically manage and update dependencies on specified repositories.
 
+It applies the shared Renovate configuration from [https://github.com/teaall/renovate-config](https://github.com/teaall/renovate-config) during the process.
+
 ## Why is this important?
 
 Keeping dependencies up to date is crucial for several reasons:

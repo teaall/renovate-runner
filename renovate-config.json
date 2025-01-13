@@ -4,6 +4,7 @@
     "onboarding": true,
     "platform": "github",
     "repositories": [
+      "teaall/renovate-runner",
       "teaall/workstation-setup"
     ]
   }
